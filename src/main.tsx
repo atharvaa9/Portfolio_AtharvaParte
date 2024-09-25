@@ -1,10 +1,24 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import * as React from "react";
+import ReactDOM from "react-dom/client";
+import { Toaster } from "sonner";
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+import App from "./App";
+
+import "./index.css";
+
+const rootEl = document.getElementById("root");
+
+// Render react app
+ReactDOM.createRoot(rootEl!).render(
+  <React.StrictMode>
+    <Toaster
+      theme="dark"
+      richColors
+      closeButton
+      toastOptions={{
+        style: { background: "#050816", opacity: 0.95 },
+      }}
+    />
     <App />
-  </StrictMode>,
-)
+  </React.StrictMode>,
+);
