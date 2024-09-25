@@ -5,6 +5,9 @@ const App = () => {
 
   return (
     <BrowserRouter>
+      <div>
+        Hi there
+      </div>
     </BrowserRouter>
   );
 };
