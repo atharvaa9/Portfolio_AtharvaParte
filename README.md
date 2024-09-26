@@ -85,3 +85,31 @@ Here's the folder structure for this application:
   ├── tailwind.config.ts
   ├── tsconfig.json
   └── vite.config.ts
+```
+## :toolbox: Getting Started
+
+To get started with the project, follow these steps:
+
+1. Ensure you have **Git** and **NodeJS** installed on your machine.
+2. Clone the repository to your local machine.
+3. Create a `.env` file in the root directory.
+4. Populate the `.env` file with the following:
+
+   ```env
+   # .env
+
+   # EmailJS configuration
+   VITE_APP_SERVICE_ID=XXXXXXXXXXXXXXXX
+   VITE_APP_TEMPLATE_ID=XXXXXXXXXXXXXXXX
+   VITE_APP_EMAILJS_KEY=XXXXXXXXXXXXXXXX
+   VITE_APP_EMAILJS_RECEIVER=your@email.com
+   ```
+5. Service ID: Get this from your EmailJS account under API keys or services.
+6. Template ID: Locate it in the EmailJS dashboard.
+7. EmailJS Public Key: Find this in your EmailJS account settings.
+8. EmailJS Receiver: Specify the email address for receiving messages.
+
+9. Open a terminal in the root directory and run:
+   ```bash
+   npm install --legacy-peer-deps
+   ```
