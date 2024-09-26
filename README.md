@@ -5,10 +5,6 @@
 ![Modern 3D Portfolio](/.github/images/img_main.png "3D Portfolio")
 
 [![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/atharvaa9 "Ask Me Anything!")
-<<<<<<< dev
-"GitHub Branches")
-=======
->>>>>>> main
 
 ---
 
@@ -89,8 +85,6 @@ Here's the folder structure for this application:
   ├── tailwind.config.ts
   ├── tsconfig.json
   └── vite.config.ts
-<<<<<<< dev
-=======
 ```
 ## :toolbox: Getting Started
 
@@ -151,4 +145,3 @@ Special thanks to the following resources and libraries used in this project:
 clsx: ^2.1.0
 framer-motion: ^10.12.18
 [maath](https://www.npmjs.com/package/
->>>>>>> main
