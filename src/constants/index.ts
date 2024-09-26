@@ -224,7 +224,7 @@ import {
       ],
       image: project1,
       source_code_link: "https://github.com/atharvaa9/transactly",
-      // live_site_link: "",
+      live_site_link: "",
     },{
     name: "CineLog: A Movie Logging System",
       description:
@@ -245,7 +245,7 @@ import {
       ],
       image: project2,
       source_code_link: "https://github.com/atharvaa9/cineLog",
-      // live_site_link: "",
+      live_site_link: "",
     },{
       name: "Attack Analysis using Honeypot",
         description:
@@ -265,7 +265,9 @@ import {
           },
         ],
         image: project3,
-        source_code_link: "https://www.youtube.com/watch?v=w3fz6XFE8iU"
+        source_code_link: "https://www.youtube.com/watch?v=w3fz6XFE8iU",
+        live_site_link: "",
+
       }
   ] as const;
   
