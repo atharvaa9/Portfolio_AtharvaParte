@@ -11,6 +11,7 @@ import {
   Contact,
 } from "./components";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import { StarsCanvas } from "./components/canvas";
 // App
@@ -35,6 +36,7 @@ const App = () => {
         </div>
         <Footer />
         <Analytics/>
+        <SpeedInsights/>
     </BrowserRouter>
   )
 };
