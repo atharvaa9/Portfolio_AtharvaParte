@@ -21,7 +21,12 @@ import {
     linkedin,
     twitter,
     github,
-    threejs
+    threejs,
+    project1,
+    bme,
+    kpmg,
+    stevens,
+    trigent
   } from "../assets";
   
   // Navbar Links
@@ -63,7 +68,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Security Enthusiast",
       icon: creator,
     },
   ] as const;
@@ -129,7 +134,7 @@ import {
     {
       title: "Web Developer / Full Stack Developer",
       company_name: "Bright Mind Enrichment, USA",
-      icon: null,//change here
+      icon: bme,//change here
       iconBg: "#383E56",
       date: "Jul 2024 - Current",
       points: [
@@ -143,7 +148,7 @@ import {
     {
       title: "Graduate Assistant (Web Developer)",
       company_name: "Stevens Institute of Technology, USA",
-      icon: null,
+      icon: stevens,
       iconBg: "#E6DEDD",
       date: "May 2023 – May 2024",
       points: [
@@ -156,7 +161,7 @@ import {
     {
       title: "Full Stack Developer",
       company_name: "KPMG, India",
-      icon: null,
+      icon: kpmg,
       iconBg: "#383E56",
       date: "Jan 2021 – Jul 2022",
       points: [
@@ -170,7 +175,7 @@ import {
     {
       title: "Frontend Developer",
       company_name: "Trigent Software, India",
-      icon: null,
+      icon: trigent,
       iconBg: "#E6DEDD",
       date: "Jun 2020 – Dec 2020",
       points: [
@@ -215,13 +220,14 @@ import {
             color: "pink-text-gradient",
         },
       ],
-      image: null,
+      image: project1,
       source_code_link: "https://github.com/atharvaa9/transactly",
       live_site_link: "https://clonedisneyplus.web.app/",
     },
   ] as const;
   
   export const SOCIALS = [
+    
     {
       name: "Linkedin",
       icon: linkedin,
