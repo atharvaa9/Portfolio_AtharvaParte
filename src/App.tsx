@@ -10,6 +10,7 @@ import {
   Works,
   Contact,
 } from "./components";
+import { Analytics } from "@vercel/analytics/react"
 
 import { StarsCanvas } from "./components/canvas";
 // App
@@ -17,6 +18,7 @@ const App = () => {
   const [hide] = useState(true);
   return (
     <BrowserRouter>
+    
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar hide={hide} />
@@ -32,6 +34,7 @@ const App = () => {
           <StarsCanvas />
         </div>
         <Footer />
+        <Analytics/>
     </BrowserRouter>
   )
 };
