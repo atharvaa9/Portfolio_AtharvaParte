@@ -27,7 +27,8 @@ import {
     kpmg,
     stevens,
     trigent,
-    project2
+    project2,
+    project3
   } from "../assets";
   
   // Navbar Links
@@ -223,7 +224,7 @@ import {
       ],
       image: project1,
       source_code_link: "https://github.com/atharvaa9/transactly",
-      live_site_link: "",
+      // live_site_link: "",
     },{
     name: "CineLog: A Movie Logging System",
       description:
@@ -244,8 +245,28 @@ import {
       ],
       image: project2,
       source_code_link: "https://github.com/atharvaa9/cineLog",
-      live_site_link: "",
-    }
+      // live_site_link: "",
+    },{
+      name: "Attack Analysis using Honeypot",
+        description:
+         "Led a comprehensive cybersecurity initiative involving the execution of over 15 honeypot-based attacks, coupled with the analysis of Endpoint Detection and Response (EDR) technologies. This hands-on experience enabled the detection and thorough examination of malicious activities, showcasing my expertise in proactive threat identification.",
+        tags: [
+          {
+            name: "MalwareAnalysis",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "Snort",
+            color: "green-text-gradient",
+          },
+          {
+              name: "Honeypot",
+              color: "pink-text-gradient",
+          },
+        ],
+        image: project3,
+        source_code_link: "https://www.youtube.com/watch?v=w3fz6XFE8iU"
+      }
   ] as const;
   
   export const SOCIALS = [

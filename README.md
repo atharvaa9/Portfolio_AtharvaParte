@@ -1,50 +1,88 @@
-# React + TypeScript + Vite
+<a name="readme-top"></a>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Modern 3D Portfolio Using React, Three.js, and TypeScript
 
-Currently, two official plugins are available:
+![Modern 3D Portfolio](/.github/images/img_main.png "3D Portfolio")
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/atharvaa9 "Ask Me Anything!")
+"GitHub Branches")
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## :notebook_with_decorative_cover: Table of Contents
 
-- Configure the top-level `parserOptions` property like this:
+<details>
+<summary>Click to expand</summary>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- [Folder Structure](#bangbang-folder-structure)
+- [Getting Started](#toolbox-getting-started)
+- [Screenshots](#camera-screenshots)
+- [Tech Stack](#gear-tech-stack)
+- [Stats](#wrench-stats)
+- [Contribute](#raised_hands-contribute)
+- [Acknowledgements](#gem-acknowledgements)
+- [Follow Me](#rocket-follow-me)
+- [Learn More](#books-learn-more)
+- [Give A Star](#star-give-a-star)
+- [Star History](#star2-star-history)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+</details>
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## :bangbang: Folder Structure
+
+Here's the folder structure for this application:
+
+```bash
+3d-portfolio/
+  ├── public/
+  │   ├── desktop_pc/
+  │   ├── planet/
+  │   ├── apple-touch-icon.png
+  │   ├── favicon.ico
+  │   ├── favicon16.png
+  │   └── favicon32.png
+  ├── src/
+  │   ├── assets/
+  │   │   ├── company/
+  │   │   ├── projects/
+  │   │   ├── socials/
+  │   │   ├── tech/
+  │   │   └── testimonials/
+  │   ├── components/
+  │   │   ├── canvas/
+  │   │   ├── about.tsx
+  │   │   ├── banner.tsx
+  │   │   ├── contact.tsx
+  │   │   ├── experience.tsx
+  │   │   ├── feedbacks.tsx
+  │   │   ├── footer.tsx
+  │   │   ├── hero.tsx
+  │   │   ├── loader.tsx
+  │   │   ├── navbar.tsx
+  │   │   ├── tech.tsx
+  │   │   └── works.tsx
+  │   ├── constants/
+  │   │   └── index.ts
+  │   ├── hoc/
+  │   │   ├── index.ts
+  │   │   └── section-wrapper.tsx
+  │   ├── utils/
+  │   │   ├── lib.ts
+  │   │   └── motion.ts
+  │   ├── app.tsx
+  │   ├── env.d.ts
+  │   ├── index.css
+  │   ├── main.tsx
+  │   └── styles.ts
+  ├── .env
+  ├── .env.example
+  ├── .gitignore
+  ├── index.html
+  ├── package-lock.json
+  ├── package.json
+  ├── postcss.config.cjs
+  ├── tailwind.config.ts
+  ├── tsconfig.json
+  └── vite.config.ts
