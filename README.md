@@ -131,7 +131,7 @@ Smooth Navigation: User-friendly navigation that allows you to effortlessly expl
 Tech Stack Display: An overview of the technologies and tools I work with, including icons for quick reference.
 
 ## :globe_with_meridians: Deployed Website
-Check out my portfolio live at portfolio-atharva-parte.vercel.app!
+Check out my portfolio live at [Portfolio](https://portfolio-atharva-parte.vercel.app/)
 
 ## :raised_hands: Contribute
 If you encounter any bugs, contributions are welcome! Please submit changes via pull request, and I will review them before merging. Ensure you follow community guidelines.
