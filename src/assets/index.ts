@@ -31,7 +31,7 @@ import stevens from "./company/stevens.png";
 import trigent from "./company/trigent.png";
 
 import project1 from "./projects/project1.png";
-
+import project2 from "./projects/project2.png";
 import github from "./socials/github.svg";
 import linkedin from "./socials/linkedin.svg";
 import twitter from "./socials/twitter.svg";
@@ -68,5 +68,6 @@ export {
   kpmg,
   trigent,
   stevens,
-  project1
+  project1,
+  project2
 };

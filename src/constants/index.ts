@@ -26,7 +26,8 @@ import {
     bme,
     kpmg,
     stevens,
-    trigent
+    trigent,
+    project2
   } from "../assets";
   
   // Navbar Links
@@ -212,7 +213,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "firebase",
+          name: "next",
           color: "green-text-gradient",
         },
         {
@@ -222,12 +223,33 @@ import {
       ],
       image: project1,
       source_code_link: "https://github.com/atharvaa9/transactly",
-      live_site_link: "https://clonedisneyplus.web.app/",
-    },
+      live_site_link: "",
+    },{
+    name: "CineLog: A Movie Logging System",
+      description:
+       "CineLog is an intuitive web application designed for movie enthusiasts to log, track, and review their movie-watching experiences. Built with a focus on user engagement and seamless interaction, this platform enhances the way users explore and manage their movie collections.",
+      tags: [
+        {
+          name: "nodejs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "green-text-gradient",
+        },
+        {
+            name: "MongoDB",
+            color: "pink-text-gradient",
+        },
+      ],
+      image: project2,
+      source_code_link: "https://github.com/atharvaa9/cineLog",
+      live_site_link: "",
+    }
   ] as const;
   
   export const SOCIALS = [
-    
+
     {
       name: "Linkedin",
       icon: linkedin,
