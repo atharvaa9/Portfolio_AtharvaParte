@@ -102,6 +102,10 @@ export const Navbar = ({ hide }: NavbarProps) => {
                     "font-poppins font-medium cursor-pointer text-[16px]"
                   )}
                   onClick={() => {
+                    if (!link.link) {
+                      setToggle((prev) => !prev);
+                      setActive(link.title);
+                    }
                   }}
                 >
                   {link.link ? (

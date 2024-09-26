@@ -1,11 +1,20 @@
 import { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 import {
-  Navbar, Hero
+  Navbar, 
+  Hero, 
+  About,
+  Footer, 
+  Experience,
+  Tech,
+  Works,
+  Contact,
 } from "./components";
+
+import { StarsCanvas } from "./components/canvas";
 // App
 const App = () => {
-  const [hide, setHide] = useState(true);
+  const [hide] = useState(true);
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
@@ -13,7 +22,16 @@ const App = () => {
           <Navbar hide={hide} />
           <Hero/>
         </div>
+        <About/>
+        <Experience />
+        <Tech />
+        <Works />
       </div>
+      <div className="relative z-0">
+          <Contact />
+          <StarsCanvas />
+        </div>
+        <Footer />
     </BrowserRouter>
   )
 };

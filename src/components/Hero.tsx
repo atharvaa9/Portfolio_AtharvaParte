@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-// import { ComputersCanvas } from "./canvas";
+import { ComputersCanvas } from "./canvas";
 import { styles } from "../styles";
 import { cn } from "../utils/lib";
 
@@ -33,7 +33,7 @@ export const Hero = () => {
       </div>
 
       {/* Computer Model */}
-      {/* <ComputersCanvas /> */}
+      <ComputersCanvas />
 
       {/* Scroll to about section */}
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
