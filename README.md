@@ -113,7 +113,7 @@ To get started with the project, follow these steps:
    ```bash
    npm install --legacy-peer-deps
    ```
-##:search: tech stack:
+## :search: tech stack:
 This project utilizes the following technologies:
 
 - [![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS")
@@ -122,7 +122,7 @@ This project utilizes the following technologies:
 - [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS")
 - [![Vercel](https://skillicons.dev/icons?i=vercel "Vercel")](https://vercel.com/ "Vercel")
 
-##:sparkles:Features
+## :sparkles:Features
 Stunning 3D Visuals: Immerse yourself in an interactive 3D experience showcasing my projects and skills.
 Responsive Design: Fully optimized for all devices, ensuring a seamless user experience on desktop, tablet, and mobile.
 Interactive Projects Showcase: Explore detailed case studies of my projects, complete with descriptions, technologies used, and links to live demos.
@@ -130,13 +130,13 @@ Contact Form: Easily reach out for collaborations or inquiries through a functio
 Smooth Navigation: User-friendly navigation that allows you to effortlessly explore different sections of the portfolio.
 Tech Stack Display: An overview of the technologies and tools I work with, including icons for quick reference.
 
-##:globe_with_meridians: Deployed Website
+## :globe_with_meridians: Deployed Website
 Check out my portfolio live at portfolio-atharva-parte.vercel.app!
 
-:raised_hands: Contribute
+## :raised_hands: Contribute
 If you encounter any bugs, contributions are welcome! Please submit changes via pull request, and I will review them before merging. Ensure you follow community guidelines.
 
-:gem: Acknowledgements
+## :gem: Acknowledgements
 Special thanks to the following resources and libraries used in this project:
 
 @emailjs/browser: ^3.11.0
