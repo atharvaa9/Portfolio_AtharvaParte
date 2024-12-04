@@ -29,7 +29,8 @@ import bme from "./company/BME.png";
 import kpmg from "./company/kpmg.png";
 import stevens from "./company/stevens.png";
 import trigent from "./company/trigent.png";
-
+import thrive from "./company/thrive.png";
+import thrive1 from "./company/thrive1.png";
 import project1 from "./projects/project1.png";
 import project2 from "./projects/project2.png";
 import project3 from "./projects/project3.png"
@@ -72,5 +73,7 @@ export {
   stevens,
   project1,
   project2,
-  project3
+  project3,
+  thrive,
+  thrive1
 };

@@ -54,20 +54,20 @@ export const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm a skilled website developer with experience in TypeScript and
-          Javascript, and expertise in frameworks like React, Node.js, and
+          I'm a skilled website and mobile app developer with experience in TypeScript and
+          Javascript, and expertise in frameworks like React, React Native, Node.js, and
           Express.js. I'm a quick learner and collaborate closely with clients to
           create efficient, scalable, and user-friendly solutions that solve
           real-world problems. Let's work together to bring your ideas to life!
         </motion.p>
 
         {/* Service Card */}
-        <div className="mt-20 flex flex-wrap gap-10">
+        <div className="mt-20 flex flex-wrap gap-10 justify-center">
           {SERVICES.map((service, i) => (
             <ServiceCard key={service.title} index={i} {...service} />
           ))}
         </div>
       </>
-    </SectionWrapper>
+    </SectionWrapper> 
   );
 };
