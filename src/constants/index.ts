@@ -28,7 +28,9 @@ import {
     stevens,
     trigent,
     project2,
-    project3
+    project3,
+    thrive,
+    thrive1
   } from "../assets";
   
   // Navbar Links
@@ -73,6 +75,10 @@ import {
       title: "Security Enthusiast",
       icon: creator,
     },
+    {
+      title: "React Native Developer",
+      icon: creator,
+    }
   ] as const;
   
   // Technologies
@@ -134,11 +140,25 @@ import {
   // Experiences
   export const EXPERIENCES = [
     {
-      title: "Web Developer / Full Stack Developer",
-      company_name: "Bright Mind Enrichment, USA",
-      icon: bme,//change here
+      title: "Software Developer",
+      company_name: "Thrive AI",
+      icon: thrive1,
       iconBg: "#383E56",
-      date: "Jul 2024 - Current",
+      date: "October 2024 - Present",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies",
+        "Building an admin portal from scratch for corporate users with focus on intuitive UI/UX",
+        "Working on mobile application development using React Native, implementing UI improvements and backend integration",
+        "Collaborating with cross-functional teams to create high-quality products",
+        "Leading UI redesign initiatives for both web and mobile platforms"
+      ],
+    },
+    {
+      title: "Software Developer",
+      company_name: "Bright Minds Enrichment, USA",
+      icon: bme,
+      iconBg: "#E6DEDD",
+      date: "Previous start date - October 2024",
       points: [
         "Led the design and development of the Bright Mind Wellness Portal's front-end using React.js and Bootstrap, enhancing user engagement through an intuitive and responsive interface.",
         "Architected and implemented robust backend solutions in Node.js with Express.js, ensuring seamless data handling and improved server response times for thousands of monthly users.",
