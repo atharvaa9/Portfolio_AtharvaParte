@@ -34,11 +34,15 @@ import thrive1 from "./company/thrive1.png";
 import project1 from "./projects/project1.png";
 import project2 from "./projects/project2.png";
 import project3 from "./projects/project3.png"
+import project4 from "./projects/project4.png"
+import project5 from "./projects/project5.png"
 
 import github from "./socials/github.svg";
 import linkedin from "./socials/linkedin.svg";
 import twitter from "./socials/twitter.svg";
 import youtube from "./socials/youtube.svg";
+
+import image1 from "./mypictures/image1.jpeg"
 
 export {
   backend,
@@ -75,5 +79,8 @@ export {
   project2,
   project3,
   thrive,
-  thrive1
+  thrive1,
+  project4,
+  project5,
+  image1
 };
