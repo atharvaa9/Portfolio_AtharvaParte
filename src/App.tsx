@@ -14,6 +14,8 @@ import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
 
 import { StarsCanvas } from "./components/canvas";
+import { CareerBanner } from "./components/CareerBanner";
+
 // App
 const App = () => {
   const [hide] = useState(true);
@@ -25,6 +27,7 @@ const App = () => {
           <Navbar hide={hide} />
           <Hero/>
         </div>
+        <CareerBanner />
         <About/>
         <Experience />
         <Tech />

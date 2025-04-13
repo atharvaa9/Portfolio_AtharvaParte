@@ -31,7 +31,6 @@ import {
     project3,
     project4,
     project5,
-    thrive,
     thrive1
   } from "../assets";
   
@@ -355,4 +354,15 @@ import {
       link: "https://github.com/atharvaa9",
     },
   ] as const;
+  
+  export const CAREER_BANNER = {
+    current_status: "Open to Work: Full Stack Developer | Software Developer",
+    value_proposition: [
+      "🚀 5+ years of experience building scalable web applications and distributed systems",
+      "💡 Strong expertise in React, Node.js, TypeScript, and cloud technologies",
+      "🛠️ Track record of leading technical initiatives and delivering high-impact projects",
+      "🤝 Proven ability to collaborate with cross-functional teams and mentor junior developers",
+      "🔄 Experience with full software development lifecycle and agile methodologies"
+    ]
+  } as const;
   
