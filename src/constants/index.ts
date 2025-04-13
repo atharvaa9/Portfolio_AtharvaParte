@@ -29,6 +29,8 @@ import {
     trigent,
     project2,
     project3,
+    project4,
+    project5,
     thrive,
     thrive1
   } from "../assets";
@@ -224,6 +226,50 @@ import {
   
   // Projects
   export const PROJECTS = [
+    {
+      name: "Apology Alchemist - AI-Powered Apology Generator",
+      description:
+        "A full-stack web application that helps users craft personalized apology messages using AI. Features include real-time message generation with Google AI, secure Firebase authentication, and private message sharing through unique URLs.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: project4,
+      source_code_link: "https://github.com/atharvaa9/ApologyAlchemist",
+      live_site_link: "https://apologyalchemist.devatharvaparte.com/",
+    },
+    {
+      name: "Soul Quest: Where Mental Wellness Meets Adventure",
+      description:
+        "An innovative RPG where your emotional journey powers gameplay. Transform mental challenges into epic quests and real-world growth. Features include emotion-powered combat, social garden system, and mindful maze running.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: project5,
+      source_code_link: "https://github.com/atharvaa9/soul-quest",
+      live_site_link: "https://soul-quest.devatharvaparte.com/",
+    },
     {
       name: "Transactly: Secure & Fast Payments",
       description:
